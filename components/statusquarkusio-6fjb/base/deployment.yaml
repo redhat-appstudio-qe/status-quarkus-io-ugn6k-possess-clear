@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: statusquarkusio-6fjb
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-eypc-tenant/status-quarkus-io/statusquarkusio-6fjb@sha256:d4d46e5ae454448459b2fdd97590e3369fb8cf5677def422fccf027da1bb4c80
         name: my-java-quarkus
         ports:
         - containerPort: 8081
